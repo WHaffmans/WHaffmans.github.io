@@ -161,6 +161,9 @@ function tri(x){return 0.5*x*x + 0.5*x}
 		$('.dice .btn').click(function(){
 			$(this).parents().children('.btn').each(roll)
 			
+			var obj = document.createElement("audio");
+        obj.src = "http://cd.textfiles.com/itcontinues/WIN/YTB22/MOREDICE.WAV"; 
+        obj.play();
 		})
 		$('.score').click(score);
 		$('.trow').click(function(){
