@@ -130,9 +130,7 @@ width:650px;
   </div>
 	<script>
 	
-	document.addEventListener('gesturestart', function (e) {
-    e.preventDefault();
-});
+	$(document).bind('touchmove', false);
 	
 	var obj = document.createElement("audio");
         obj.src = "http://cd.textfiles.com/itcontinues/WIN/YTB22/MOREDICE.WAV"; 
