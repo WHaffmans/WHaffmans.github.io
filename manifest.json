@@ -4,7 +4,7 @@
   "lang": "nl-NL",
   "start_url": "/",
   
-    "display":      "standalone", /* Could be "fullscreen", "standalone", "minimal-ui", or "browser" */
+    "display":      "fullscreen", /* Could be "fullscreen", "standalone", "minimal-ui", or "browser" */
     "orientation":  "landscape", /* Could be "landscape" or "portrait" */
     
 }
