@@ -142,11 +142,11 @@ function tri(x){return 0.5*x*x + 0.5*x}
 
 		}
 		function roll(){
-			$(this).text( 1 + Math.floor(Math.random()*6))	
+			$(this).text( 1 + Math.floor(Math.random()*6)).fadeOut(200).fadeIn(200)	
 		}
 
 		$('.dice .btn').click(function(){
-			$(this).parents().children('.btn').each(roll).fadeOut(200).fadeIn(200)
+			$(this).parents().children('.btn').each(roll)
 		})
 		$('.score').click(score);
 		$('.trow').click(function(){
