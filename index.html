@@ -145,8 +145,8 @@ function tri(x){return 0.5*x*x + 0.5*x}
 			$(this).text( 1 + Math.floor(Math.random()*6))	
 		}
 
-		$('.dice').click(function(){
-			$(this).children('.btn').each(roll)
+		$('.dice .btn').click(function(){
+			$(this).parents().children('.btn').each(roll)
 		})
 		$('.score').click(score);
 		$('.trow').click(function(){
