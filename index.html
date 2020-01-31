@@ -147,6 +147,7 @@ function tri(x){return 0.5*x*x + 0.5*x}
 
 		$('.dice .btn').click(function(){
 			$(this).parents().children('.btn').each(roll)
+			$('.dice').fadeTo('fast',0).fadeTo('fast',1)
 		})
 		$('.score').click(score);
 		$('.trow').click(function(){
