@@ -129,6 +129,11 @@ width:650px;
   </div>
   </div>
 	<script>
+	
+	document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+	
 	var obj = document.createElement("audio");
         obj.src = "http://cd.textfiles.com/itcontinues/WIN/YTB22/MOREDICE.WAV"; 
 		function countline(line){
